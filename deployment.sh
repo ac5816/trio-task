@@ -1,6 +1,6 @@
 #!/bin/bash
 #Create network
-docker network create trio-task-
+docker network create trio-task-network
 #Create volume
 docker volume create trio-db-volume
 #Building images
